@@ -1,132 +1,127 @@
-# 🌍 Air Quality Analysis Dashboard
+# 🌍 Air Pollution Analysis India
+### Interactive Power BI Dashboard for Air Quality Analysis across Indian States & Cities
 
-An interactive Power BI dashboard that analyzes PM10 concentration and Air Quality Risk Index (ARI) across Indian cities and states. The dashboard enables users to explore pollution trends, compare regions, and identify areas with high and low pollution levels through interactive visualizations.
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-Measures-blue)
+![Power Query](https://img.shields.io/badge/Power%20Query-Data%20Transformation-green)
+![Data Visualization](https://img.shields.io/badge/Data%20Visualization-Analytics-orange)
+![Status](https://img.shields.io/badge/Project-Completed-success)
 
 ---
 
-## Dashboard Preview
+## 📖 Overview
 
-### Overview
+This project presents an **interactive Power BI dashboard** built to analyze **PM10 concentration** and **Air Quality Risk Index (ARI)** across Indian states and cities using publicly available government air quality data.
+
+The dashboard enables users to identify pollution hotspots, compare air quality across regions, analyze historical trends, and explore urban versus rural pollution levels through interactive visualizations and filters.
+
+---
+
+# 📊 Dashboard Preview
+
+## 🏠 Dashboard Overview
 
 ![Dashboard Overview](images/overview.png)
 
-### Trend Analysis
+---
+
+## 📈 Trend Analysis
 
 ![Trend Analysis](images/trends.png)
 
 ---
 
-## Project Overview
+# 🎯 Objectives
 
-Air pollution is a growing environmental concern affecting public health and quality of life. This project uses publicly available Government air quality data to visualize PM10 concentration and ARI statistics across different states and cities in India.
-
-The dashboard provides decision-makers and analysts with an interactive way to monitor pollution levels, compare regions, and identify long-term trends.
-
----
-
-## Objectives
-
-- Analyze PM10 concentration across Indian cities.
-- Compare pollution levels across states.
-- Monitor pollution trends over multiple years.
-- Identify cities with the highest and lowest pollution levels.
-- Compare urban and rural pollution.
-- Provide interactive filtering for better exploration.
+- Analyze PM10 concentration across Indian cities and states.
+- Compare pollution levels between different regions.
+- Track historical PM10 trends across multiple years.
+- Identify locations with the highest and lowest pollution levels.
+- Compare Urban and Rural air quality.
+- Build an interactive dashboard for data-driven exploration.
 
 ---
 
-## Dataset
+# 🗂 Dataset
 
-- **Source:** Publicly available Government air quality data compiled from government reports/articles.
-- **Geography:** India
-- **Metrics:** PM10 Concentration, Air Quality Risk Index (ARI)
-- **Granularity:** State-wise and City-wise
+**Source**
 
----
+Publicly available Government air quality data compiled from official reports and articles.
 
-## Dashboard Features
+**Coverage**
 
-- KPI Cards
-  - Average PM10 Concentration
-  - Average ARI
-  - Highest PM10
-  - Lowest PM10
-
-- Geographic Analysis using Map Visuals
-
-- State-wise Pollution Comparison
-
-- City-wise Pollution Analysis
-
-- Urban vs Rural Comparison
-
-- PM10 Trend Analysis
-
-- Pollution Category Distribution
-
-- Interactive Filters
-  - State
-  - City
+- 🇮🇳 India
+- State-wise Air Quality Risk Index (ARI)
+- City-wise PM10 Concentration
+- Historical pollution trends
 
 ---
 
-## Data Preparation
+# 🧹 Data Preparation
 
-Power Query was used for data cleaning and transformation.
+The dataset was cleaned and transformed using **Power Query**.
 
-Transformations included:
+### Data Cleaning & Transformation
 
-- Removing blank rows
-- Filtering records
-- Trimming text
-- Renaming columns
-- Changing data types
-- Replacing inconsistent values
-- Splitting text using delimiters
-- Removing unnecessary columns
-- Creating derived tables for trend analysis
+- Removed blank rows
+- Filtered unnecessary records
+- Trimmed text values
+- Renamed columns
+- Changed data types
+- Replaced inconsistent values
+- Split text using delimiters
+- Removed unwanted columns
+- Created derived tables for trend analysis
 
 ---
 
-## Data Modeling
+# 🏗 Data Model
 
-The dashboard uses a relational data model connecting PM10 and ARI datasets.
+The dashboard combines PM10 and ARI datasets using relationships within the Power BI data model.
 
-Additional supporting tables were created for:
+Additional supporting tables were created to improve dashboard performance and enable:
 
 - Trend Analysis
-- Unpivoted data
-- Time-series visualizations
+- Time-series Visualizations
+- Data Reshaping (Unpivoted Tables)
 
 ---
 
-## Visualizations Used
+# 📌 Dashboard Features
 
-- KPI Cards
-- Map
-- Scatter Plot
-- Clustered Bar Chart
-- Stacked Bar Chart
-- Treemap
-- Donut Chart
-- Line Chart
-- Slicers
+### KPI Cards
 
----
+- 📍 Average PM10 Concentration
+- 📍 Average ARI (%)
+- 📍 Highest PM10
+- 📍 Lowest PM10
 
-## Key Insights
+### Interactive Visualizations
 
-- Pollution levels vary significantly across Indian states.
-- Urban areas generally show higher PM10 concentration than rural regions.
-- The dashboard highlights cities with the highest and lowest PM10 levels.
-- Interactive filters allow exploration by state and city.
-- Historical trend analysis enables comparison across multiple years.
+- 🗺 Map Visualization
+- 📈 Line Chart
+- 📊 Clustered Bar Chart
+- 📉 Stacked Bar Chart
+- 🎯 Scatter Plot
+- 🌳 Treemap
+- 🍩 Donut Chart
+- 🎛 Interactive Slicers
 
 ---
 
-## Tools & Technologies
+# 🔍 Key Insights
 
-- Power BI
+- Urban areas generally exhibit higher PM10 concentrations compared to rural areas.
+- Significant variation in pollution levels can be observed across Indian states.
+- The dashboard highlights cities with the highest and lowest PM10 concentrations.
+- Historical trends provide insight into changes in pollution over multiple years.
+- Interactive filtering allows users to explore pollution data at both the state and city level.
+
+---
+
+# 🛠 Technologies Used
+
+- Microsoft Power BI
 - Power Query
 - DAX
 - Data Modeling
@@ -134,36 +129,51 @@ Additional supporting tables were created for:
 
 ---
 
-## Skills Demonstrated
+# 💡 Skills Demonstrated
 
 - Data Cleaning
 - Data Transformation
 - Data Modeling
+- DAX Measure Creation
 - Dashboard Design
-- Business Intelligence
 - KPI Reporting
 - Interactive Reporting
+- Business Intelligence
 - Analytical Storytelling
 
 ---
 
-## Repository Structure
+# 📂 Repository Structure
 
-```
-Air-Quality-Analysis-Dashboard/
+```text
+air-pollution-analysis-india/
 │
-├── Air_Quality_Analysis.pbix
+├── AirPollution_ARI_Dashboard.pbix
 ├── README.md
-└── images
+│
+└── images/
     ├── overview.png
-    ├── trends.png
+    └── trends.png
 ```
 
 ---
 
-## Future Improvements
+# 🚀 How to Use
 
-- Include additional air quality indicators (PM2.5, NO₂, SO₂).
-- Add forecasting for pollution trends.
-- Integrate real-time pollution data.
-- Enhance dashboard with drill-through pages.
+1. Clone or download this repository.
+2. Open **AirPollution_ARI_Dashboard.pbix** using Microsoft Power BI Desktop.
+3. Interact with the dashboard using the available slicers and filters.
+4. Explore pollution trends across Indian cities and states.
+
+---
+
+# 🔮 Future Improvements
+
+- Include additional air quality indicators such as PM2.5, NO₂, SO₂ and CO.
+- Integrate live air quality APIs for real-time monitoring.
+- Add forecasting models for future pollution trends.
+- Improve drill-through analysis and report navigation.
+
+---
+
+## ⭐ If you found this project interesting, consider giving the repository a star!
