@@ -11,7 +11,7 @@
 
 ## 📖 Overview
 
-This project presents an **interactive Power BI dashboard** built to analyze **PM10 concentration** and **Air Quality Risk Index (ARI)** across Indian states and cities using publicly available government air quality data.
+This project presents an **interactive Power BI dashboard** built to analyze **PM10 concentration** and **Acute Respiratory Illness (ARI)** across Indian states and cities using publicly available government air quality data.
 
 The dashboard enables users to identify pollution hotspots, compare air quality across regions, analyze historical trends, and explore urban versus rural pollution levels through interactive visualizations and filters.
 
@@ -51,7 +51,7 @@ Publicly available Government air quality data compiled from official reports an
 **Coverage**
 
 - 🇮🇳 India
-- State-wise Air Quality Risk Index (ARI)
+- State-wise Acute Respiratory Illness (ARI) count
 - City-wise PM10 Concentration
 - Historical pollution trends
 
